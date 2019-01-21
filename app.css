@@ -1,0 +1,82 @@
+body{
+  background: url("../img/cocina.jpg") no-repeat fixed center;
+}
+
+.header{
+  padding-top: 25px;
+}
+
+.bordes {
+  border-right: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+.contenedor{
+    margin-top: 10px;
+    background: rgba(145, 145, 199, 0.8);
+}
+
+hr {
+  background-color: white;
+  height: 1px;
+  border: 0;
+}
+
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+  text-align: center;
+  margin-left: 0;
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item:hover   {
+  background-color: #e6e6e6;
+}
+
+.texto{
+  color: violet;
+}
+
+.images{
+  border: 1px solid white;
+}
+
+.seccion_principal{
+  background-color: #b3b3ff;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.iconos{
+  width: 80px;
+}
+
+.comentario {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+p{
+  display: inline;
+}
+
+
+@media (max-width: 480px){
+  .iconos{
+    width: 50px;
+  }
+}
